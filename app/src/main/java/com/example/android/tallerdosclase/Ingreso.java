@@ -50,7 +50,7 @@ public class Ingreso extends Activity {
     public boolean validar(){
         if (txtMarca.getText().toString().isEmpty()){
             txtMarca.requestFocus();
-            txtMarca.setError(getString(R.string.Error_1));
+            txtMarca.setError(getString(R.string.Error_1M));
             return false;
         }
         if (txtCapacidad.getText().toString().isEmpty()){
@@ -65,7 +65,7 @@ public class Ingreso extends Activity {
         }
         if (txtColor.getText().toString().isEmpty()){
             txtColor.requestFocus();
-            txtColor.setError(getString(R.string.Error_1));
+            txtColor.setError(getString(R.string.Error_1C));
             return false;
         }
 

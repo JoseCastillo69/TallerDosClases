@@ -11,8 +11,15 @@
     <string name="ingresar">Ingresar</string>
     <string name="limpiar">Limpiar</string>
     <string name="mensaje">Movil ingresado exitosamente</string>
-    <string name="Error_1">Ingrese un cantidad</string>
+    <string name="Error_1">Ingrese una cantidad</string>
+    <string name="Error_1M">Ingrese un marca</string>
+    <string name="Error_1C">Ingrese un color</string>
     <string name="Error_2">Ingrese un cantidad mayor a cero</string>
+    <string name="id">No.</string>
+    <string name="marca">Marca</string>
+    <string name="capacidad">Capacidad</string>
+    <string name="color">Color</string>
+    <string name="tituloL">Moviles Disponibles (Listado)</string>
 
     <string-array name="opciones">
         <item>@string/ingreso</item>
