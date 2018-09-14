@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TallerDosClase</string>
+
+    <string-array name="opciones">
+        <string name="ingreso">Ingresar Nuevo Movil</string>
+        <string name="listado">Listado Moviles</string>
+        <string name="reportes">Reportes</string>
+    </string-array>
+</resources>
