@@ -29,16 +29,21 @@ public class principal extends Activity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                switch (i){
+                switch (i) {
                     case 0:
                         in = new Intent(principal.this, Ingreso.class);
                         startActivity(in);
                         break;
                     case 1:
-                        in = new Intent(principal.this, listar.class);
+                        in = new Intent(principal.this, Listado.class);
+                        startActivity(in);
+                        break;
+                    case 2:
+                        in = new Intent(principal.this, Reportes.class);
                         startActivity(in);
                         break;
                 }
             }
         });
+    }
 }

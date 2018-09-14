@@ -1,9 +1,22 @@
 <resources>
     <string name="app_name">TallerDosClase</string>
 
+    <string name="ingreso">Ingresar Nuevos Moviles</string>
+    <string name="listado">listado Moviles</string>
+    <string name="reportes">Reportes</string>
+    <string name="tituloI">Ingreso de Moviles</string>
+    <string name="marca_movil">Ingrese marca del movil</string>
+    <string name="capacidad_ram">Ingrese Capacidad de RAM</string>
+    <string name="color_movil">Ingrese color del movil</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mensaje">Movil ingresado exitosamente</string>
+    <string name="Error_1">Ingrese un cantidad</string>
+    <string name="Error_2">Ingrese un cantidad mayor a cero</string>
+
     <string-array name="opciones">
-        <string name="ingreso">Ingresar Nuevo Movil</string>
-        <string name="listado">Listado Moviles</string>
-        <string name="reportes">Reportes</string>
+        <item>@string/ingreso</item>
+        <item>@string/listado</item>
+        <item>@string/reportes</item>
     </string-array>
 </resources>

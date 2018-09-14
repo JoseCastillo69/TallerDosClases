@@ -19,8 +19,6 @@
         <activity android:name=".Ingreso" />
         <activity android:name=".Listado" />
         <activity android:name=".Reportes" />
-        <activity android:name=".prueba" />
-        <activity android:name=".prueba2"></activity>
     </application>
 
 </manifest>
