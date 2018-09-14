@@ -5,11 +5,13 @@ public class movil {
     private String marca;
     private int capacidad;
     private String color;
+    private double precio;
 
-    public movil(String marca, int capacidad, String color) {
+    public movil(String marca, int capacidad, String color, double precio) {
         this.marca = marca;
         this.capacidad = capacidad;
         this.color = color;
+        this.precio = precio;
     }
 
     public String getMarca() {
@@ -38,5 +40,13 @@ public class movil {
 
     public void guardar(){
         datos.guardar(this);
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
     }
 }

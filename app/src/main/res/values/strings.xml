@@ -20,6 +20,25 @@
     <string name="capacidad">Capacidad</string>
     <string name="color">Color</string>
     <string name="tituloL">Moviles Disponibles (Listado)</string>
+    <string name="tituloR">Reportes Inventario</string>
+    <string name="leyendaR">Aqui podra revisar los reportes disponibles acerca del inventario</string>
+    <string name="leyendaR1">1)Mostar todos los datos de los celulares marca Samsung con una capacidad de 2 a 4 GB de Ram registrados.</string>
+    <string name="leyendaR2">2)Mostrar el número de celulares marca Apple color Negro registrados.</string>
+    <string name="leyendaR3">3)Mostrar el precio promedio de los celulares marca Nokia registrados.</string>
+    <string name="Seleccion">Seleccione un reporte</string>
+    <string name="r1">Reporte #1 (LEA DESCRIPCION)</string>
+    <string name="r2">Reporte #2 (LEA DESCRIPCION)</string>
+    <string name="r3">Reporte #3 (LEA DESCRIPCION)</string>
+    <string name="error_re">Por favor seleccion un reporte</string>
+    <string name="b_reporte">Crear Reporte</string>
+    <string name="s_reporte">Aqui se mostrara el reporte que elija</string>
+    <string-array name="Reportes">
+        <item>@string/Seleccion</item>
+        <item>@string/r1</item>
+        <item>@string/r2</item>
+        <item>@string/r3</item>
+    </string-array>
+
 
     <string-array name="opciones">
         <item>@string/ingreso</item>
